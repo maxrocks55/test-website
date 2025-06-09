@@ -1,7 +1,11 @@
-p {
-  color: black;
-}
-
-body {
-  background-color: cyan;
+@media (perfers-color-scheme: dark) {
+  body {
+    background-color: black;
+    color: white;
+  }
+  nav {
+    background-color: rgb(44, 44, 44);
+    border-color: azure;
+    color:rgb(222, 222, 222);
+  }
 }
